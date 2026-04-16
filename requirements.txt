@@ -6,3 +6,4 @@ fastapi
 uvicorn
 tavily-python
 langchain-groq
+mcp[cli]
