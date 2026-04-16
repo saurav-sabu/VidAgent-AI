@@ -11,9 +11,9 @@ tavily_client = TavilyClient()
 
 # Default models
 GROQ_MODELS = {
-    "Llama 3 (Fast)": "llama-3.3-70b-versatile",
-    "OpenAI (Balanced)": "openai/gpt-oss-120b",
-    "Qwen (Efficient)": "qwen/qwen3-32b"
+    "Qwen 3 32B (Default)": "qwen/qwen3-32b",
+    "Llama 3.3 70B (Powerful)": "llama-3.3-70b-versatile",
+    "OpenAI GPT-OSS 120B (Elite)": "openai/gpt-oss-120b"
 }
 
 st.set_page_config(
